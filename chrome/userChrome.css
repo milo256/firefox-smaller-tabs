@@ -4,10 +4,10 @@
 /* OPTIONAL */
 
 /* Remove empty space in title bar (great on tiling window managers) */
-.titlebar-spacer { width: 0px !important; }
+/*.titlebar-spacer { width: 0px !important; }*/
 
 /* Remove window controls */
-.titlebar-buttonbox { display: None; }
+/*.titlebar-buttonbox { display: None; }*/
 
 
 /* TABS */
