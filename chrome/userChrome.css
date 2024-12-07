@@ -1,0 +1,49 @@
+:root {
+    --tab-min-height: 1.3em !important;
+    --tabstrip-min-heiht: 1.0em !important;
+    --tab-inline-padding: 6px !important;
+    --tabs-navbar-separator-style: none !important;
+    --bookmark-block-padding: 0px !important;
+}
+
+toolbarspring {
+    display: None;
+}
+.tab-secondary-label {
+    display: None;
+}
+.bookmark-item {
+    margin-top: 0 !important;
+    margin-bottom: 3px !important;
+}
+#urlbar-container {
+    --urlbar-container-height: 2.0em !important;
+    margin-left: 6px !important;
+}
+#urlbar {
+    --urlbar-box-bgcolor: transparent !important;
+}
+#urlbar:not([focused], [open]) > #urlbar-background {
+    background-color: transparent !important;
+}
+
+#TabsToolbar {
+    box-shadow: inset 0 -2px 3px rgba(0,0,0,0.15);
+}
+.tab-label-container {
+   height: 1.5em !important;
+}
+
+.tab-background {
+    border-radius: 0 !important;
+    border: None !important;
+    outline: None !important;
+    box-shadow: None;
+    border-bottom-width: 0;
+    margin-block: 0 !important;
+}
+.tab-background:is([selected],[multiselected]) {
+    background-color: var(--toolbar-bgcolor) !important;
+    /*box-shadow: 0 0 3px rgba(0,0,0,1) !important;*/
+    border: None !important;
+}
