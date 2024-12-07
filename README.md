@@ -2,7 +2,7 @@ custom css for firefox that reduces the height of the upper bar so that you can 
 
 yes, it's for firefox, chrome just means theme
 
-![](what-it-looks-like.png)
+![](demo.png)
 
 # Installation
 
